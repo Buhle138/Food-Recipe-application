@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Dapper/2.0.123": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Ingredients/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Dapper": "2.0.123"
+        },
+        "compile": {
+          "bin/placeholder/Ingredients.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ingredients.dll": {}
+        }
+      },
+      "Recipe/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "Ingredients": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Recipe.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Recipe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dapper/2.0.123": {
+      "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+      "type": "package",
+      "path": "dapper/2.0.123",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.123.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Ingredients/1.0.0": {
+      "type": "project",
+      "path": "../Ingredients/Ingredients.csproj",
+      "msbuildProject": "../Ingredients/Ingredients.csproj"
+    },
+    "Recipe/1.0.0": {
+      "type": "project",
+      "path": "../Recipe/Recipe.csproj",
+      "msbuildProject": "../Recipe/Recipe.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Ingredients >= 1.0.0",
+      "Recipe >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ST10155497_PROG221_Assignment_partOne\\MainFile\\MainFile.csproj",
+      "projectName": "MainFile",
+      "projectPath": "C:\\Users\\user\\Desktop\\ST10155497_PROG221_Assignment_partOne\\MainFile\\MainFile.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ST10155497_PROG221_Assignment_partOne\\MainFile\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\user\\Desktop\\ST10155497_PROG221_Assignment_partOne\\Ingredients\\Ingredients.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\ST10155497_PROG221_Assignment_partOne\\Ingredients\\Ingredients.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\ST10155497_PROG221_Assignment_partOne\\Recipe\\Recipe.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\ST10155497_PROG221_Assignment_partOne\\Recipe\\Recipe.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

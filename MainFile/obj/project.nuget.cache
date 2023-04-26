@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FNt5b56IXkZ3RnaHA9KbijVZ5jM1k/CkjULBaM9wo4tQyonAEtmwuBvPRldQ6yymLDC3eHy2Lk0/rnAjlXQWGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ST10155497_PROG221_Assignment_partOne\\MainFile\\MainFile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
+  "logs": []
+}

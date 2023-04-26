@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\bin\Debug\net7.0\Ingredients.deps.json
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\bin\Debug\net7.0\Ingredients.dll
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\bin\Debug\net7.0\Ingredients.pdb
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\obj\Debug\net7.0\Ingredients.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\obj\Debug\net7.0\Ingredients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\obj\Debug\net7.0\Ingredients.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\obj\Debug\net7.0\Ingredients.AssemblyInfo.cs
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\obj\Debug\net7.0\Ingredients.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\obj\Debug\net7.0\Ingredients.dll
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\obj\Debug\net7.0\refint\Ingredients.dll
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\obj\Debug\net7.0\Ingredients.pdb
+C:\Users\user\Desktop\ST10155497_PROG221_Assignment_partOne\Ingredients\obj\Debug\net7.0\ref\Ingredients.dll
